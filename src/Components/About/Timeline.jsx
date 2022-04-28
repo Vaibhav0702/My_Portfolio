@@ -31,7 +31,7 @@ export const Timeline = () => {
           My <span className="different">Timeline 💫</span>
         </h2>
         <VerticalTimeline lineColor={linecolor}>
-         
+
           <VerticalTimelineElement
             date={"November 2021 - Present"}
             contentStyle={{
@@ -64,7 +64,7 @@ export const Timeline = () => {
               Masai School (Remote)
             </h4>
             <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Development
+              Joined the Military coding school to learn Full Stack Web Development
               and DSA. Also get to learn lot more other skills as well.
             </p>
           </VerticalTimelineElement>
@@ -99,7 +99,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-             Babasaheb Naik College Of Engineering, Pusad, Maharashtra 
+              Babasaheb Naik College Of Engineering, Pusad, Maharashtra
             </h4>
             <p data-aos="fade-right">
               Studied Mechanical Engineering which consists of all the
@@ -139,7 +139,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-            Dr. N. P. Hirani Institute Of Polytechnic, Pusad, Maharashtra 
+              Dr. N. P. Hirani Institute Of Polytechnic, Pusad, Maharashtra
             </h4>
             <p data-aos="fade-right">
               Studied Mechanical Engineering which consists of all the
@@ -179,7 +179,7 @@ export const Timeline = () => {
               className="vertical-timeline-element-subtitle"
               data-aos="fade-right"
             >
-             Shree Shivaji High School, Pusad, Maharashtra
+              Shree Shivaji High School, Pusad, Maharashtra
             </h4>
             <p data-aos="fade-right">
               Studied 10th and Passed with 81.00 Percentage.

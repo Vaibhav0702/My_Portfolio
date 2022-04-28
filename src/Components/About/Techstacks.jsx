@@ -8,11 +8,12 @@ import {
   SiExpress,
   SiRedis,
   SiTailwindcss,
-  SiNetlify
+  SiNetlify,
+  SiGit,
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
-import { VscGithub } from "react-icons/vsc";
+import { VscGithub , VsD} from "react-icons/vsc";
 import { BsBootstrap, BsWordpress } from "react-icons/bs";
 
 export const Techstacks = () => {
@@ -55,11 +56,27 @@ export const Techstacks = () => {
             <FaAws />
             <h5>AWS</h5>
           </div>
-          
+
           <div>
             <VscGithub />
             <h5>Github</h5>
           </div>
+          <div>
+            <SiRedux />
+            <h5>Redux</h5>
+          </div>
+
+          <div>
+            <SiGit />
+            <h5>Git</h5>
+          </div>
+         
+          <div>
+            <SiNetlify/>
+            <h5>Netlify</h5>
+          </div>
+
+
         </div>
       </div>
     </>

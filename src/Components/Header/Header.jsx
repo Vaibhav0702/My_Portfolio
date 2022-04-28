@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar } from "../Navbar/Navbar";
 import { ThemeContext } from "../../Context/theme";
-import Image from "./../../assets/logo-modified.png";
+// import Image from "./../../assets/smile-modified.png";
 
 import "./Header.css";
 export const Header = () => {
@@ -11,13 +11,16 @@ export const Header = () => {
     <>
       <header className={"header center " + themename}>
         <h3>
-          <a href="#home" className="link">
-            <span>
+          <a href="#home" className="link" >
+
+            {/* <span>
               <img src={Image} alt="logo" />
-            </span>
-            AIBHAV
+            </span> */}
+            VAIBHAV
+
           </a>
         </h3>
+
         <Navbar />
       </header>
     </>

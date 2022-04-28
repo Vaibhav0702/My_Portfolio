@@ -4,6 +4,8 @@
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
+  font-style: italic;
+
 }
 
 @media (max-width: 600px) {
@@ -16,3 +18,4 @@ img{
   width: 30px;
   margin-right: 4px;
 }
+

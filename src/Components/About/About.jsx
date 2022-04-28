@@ -21,7 +21,7 @@ export const About = () => {
         </h1>
         <Type />
         <p className="about__desc" data-aos="fade-right">
-          Passionate and creative Full Stack Developer having proficiency in
+          Passionate and creative Full Stack Web Developer having proficiency in
           MERN Stack. Attired with a variety of tools & technologies and keen to
           learn new one.
         </p>

@@ -30,9 +30,9 @@ export const Introduction = () => {
                 . I have completed my graduation in Mechanical Enginnering
                 from{" "}
                 <span className="different">
-                Sant Gadge Baba Amravati University, Amravati, Maharashtra 
+                  Sant Gadge Baba Amravati University, Amravati, Maharashtra
                 </span>
-                . Then I joined full stack development course by{" "}
+                . Then I joined full stack web development course by{" "}
                 <span className="different">Masai School</span> a military type
                 coding school.
               </h4>
@@ -55,7 +55,7 @@ export const Introduction = () => {
                 </span>
                 Traveler{" "}
               </h4>
-              
+
             </div>
           </div>
         </div>
