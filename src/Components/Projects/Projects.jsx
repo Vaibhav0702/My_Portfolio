@@ -23,6 +23,9 @@ import { VscJson } from "react-icons/vsc";
 import { IoLogoJavascript } from "react-icons/io";
 
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
+
 
 export const Projects = () => {
 
@@ -36,16 +39,61 @@ export const Projects = () => {
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
-              <div className="project_videocontainer">
 
-                <div>
-                  <img
-                    src="https://camo.githubusercontent.com/07c4a50179a68bd67a55806b9f21fc292461675f8a3bea57397813668255d8d6/68747470733a2f2f626c6f676765722e676f6f676c6575736572636f6e74656e742e636f6d2f696d672f622f523239765a32786c2f415676587345694e4a636130483254725667524e5a5150494455756e76394a474d4c70364346564e59655f57785751366a7162775530534351523333794d6430656779315f4c3937723658577263646a30366974354479377a6c7877662d422d324870316c793052366c30496266784e424b3978684246705f48424c7374424175564279436d546d3669344a627a7048353350422d696b4e6d3478577554757768516e67724849446b43594a514f585247554d6857425469726d5473554132732f73313238302f5768617473417070253230496d616765253230323032322d30342d3032253230617425323031332e33372e30322e6a706567"
-                    alt="MyGlamm"
-                  />
+              <div className="project_videocontainer" >
+
+                <div >
+
+                  <Carousel className="project_videocontainer" autoPlay={true} infiniteLoop={true} showIndicators={false} showThumbs={false} showStatus={false} >
+
+                    <div  >
+
+                      <img
+                        src="https://camo.githubusercontent.com/07c4a50179a68bd67a55806b9f21fc292461675f8a3bea57397813668255d8d6/68747470733a2f2f626c6f676765722e676f6f676c6575736572636f6e74656e742e636f6d2f696d672f622f523239765a32786c2f415676587345694e4a636130483254725667524e5a5150494455756e76394a474d4c70364346564e59655f57785751366a7162775530534351523333794d6430656779315f4c3937723658577263646a30366974354479377a6c7877662d422d324870316c793052366c30496266784e424b3978684246705f48424c7374424175564279436d546d3669344a627a7048353350422d696b4e6d3478577554757768516e67724849446b43594a514f585247554d6857425469726d5473554132732f73313238302f5768617473417070253230496d616765253230323032322d30342d3032253230617425323031332e33372e30322e6a706567"
+                        alt="MyGlamm1"
+                      />
+
+                    </div>
+
+                    <div >
+
+                      <img
+                        src="https://camo.githubusercontent.com/46eb7d2e904e21d808cb4ea1fb259abe6077fac18e17c777d23ba9923b3a1757/68747470733a2f2f626c6f676765722e676f6f676c6575736572636f6e74656e742e636f6d2f696d672f622f523239765a32786c2f4156765873456744307a486e4430394e77784e74647839712d3064744373566c43394a5a7642506a42384b5546674c32734474325330514c56786a39326379775f72665a4270394d6f74627779744f5f5034534e50486f53454d536d4468466355556d675850334f67676e375f3579662d6c7a5a6b4c6b507141517333676a456b78625979504742637038644d4d73766a71476747786b6f434c4e744975415339785a6347494c69774577374b6b785f6d7a44366b70425361725750435a542d2f73313238302f5768617473417070253230496d616765253230323032322d30342d3033253230617425323031332e33332e32372e6a706567"
+                        alt="MyGlamm5"
+                      />
+
+                    </div>
+
+
+
+                    <div >
+
+                      <img
+                        src="https://camo.githubusercontent.com/5c3347a8a07bc32a5d29c0492487c0f89e034b4a61298078df51560c4d35dfe3/68747470733a2f2f626c6f676765722e676f6f676c6575736572636f6e74656e742e636f6d2f696d672f612f4156765873456953307334684b6c64346f6f6642784f4e4c53636570726279544350625a6d4542307663574b7a3233515033714f566b70372d6e766f6b5767597557376c665039674d726759596d36496a417a6c495262676b766d4c393448427736437a5074794c2d4e44595865496342706c4b73723459785f5761355153796c6b35334a4643477a79363232737841446a7933735836373057756d4c756b6366696554667a386b5262556a7233486478527131585431366e657470395769743d7331323830"
+                        alt="MyGlamm6"
+                      />
+
+                    </div>
+
+
+
+
+
+
+
+                  </Carousel>
+
+
+
+
+
+
+
                 </div>
 
               </div>
+
+
               <div className="project_information">
                 <h2>MyGlamm</h2>
                 <p>
@@ -88,14 +136,64 @@ export const Projects = () => {
 
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
-              <div className="project_videocontainer">
-                <div>
+
+              <div className="project_videocontainer" >
+
+                <div >
+
+                  <Carousel className="project_videocontainer" autoPlay={true} infiniteLoop={true} showIndicators={false} showThumbs={false} showStatus={false} >
+
+                  <div>
                   <img
                     src="https://miro.medium.com/max/700/1*VNb0tcgKmYTYfVrLPCQLYg.png"
                     alt="Max Fashion"
                   />
                 </div>
+
+
+                <div>
+                  <img
+                    src="https://user-images.githubusercontent.com/97450767/169753033-7cdb19dd-7764-4893-aba0-998c4fdecd06.png"
+                    alt="Max Fashion"
+                  />
+                </div>
+
+
+                <div>
+                  <img
+                    src="https://user-images.githubusercontent.com/97450767/169752904-7f9d0f0f-2cd6-45af-9154-fb522037750c.png"
+                    alt="Max Fashion"
+                  />
+                </div>
+
+                
+                <div>
+                  <img
+                    src="https://user-images.githubusercontent.com/97450767/169753085-e07e805f-a6c2-41be-8c2b-0cf0f2fcae68.png"
+                    alt="Max Fashion"
+                  />
+                </div>
+
+
+                <div>
+                  <img
+                    src="https://user-images.githubusercontent.com/97450767/169753159-1e7c34b8-7030-43ba-8131-5dadf05e33a3.png"
+                    alt="Max Fashion"
+                  />
+                </div>
+
+
+
+                  </Carousel>
+
+                </div>
+
               </div>
+
+
+
+
+             
               <div className="project_information">
                 <h2>Max Fashion</h2>
                 <p>
