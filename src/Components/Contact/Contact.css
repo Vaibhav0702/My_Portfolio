@@ -80,6 +80,9 @@
   grid-template-columns: repeat(1, 1fr);
   margin: auto;
 }
+
+
+
 @media (max-width: 670px) {
   .contactcontainer svg {
     font-size: 2em;
@@ -109,4 +112,15 @@
   .contactcontainer svg:hover {
     font-size: 3rem;
   }
+
+
+  .Consection{
+    /* border: 1px solid red; */
+
+    padding: 30px;
+    text-align: center;
+
+  }
+
+
 }

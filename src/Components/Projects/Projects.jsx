@@ -34,7 +34,7 @@ export const Projects = () => {
 
   return (
     <>
-      <div className="section">
+      <div className="Projectsection">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
 

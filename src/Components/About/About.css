@@ -54,6 +54,7 @@
     margin-top: 2em;
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   .about > :nth-child(2) {
     font-size: 1.5rem;
