@@ -6,6 +6,7 @@
   text-align: center;
   background-color: var(--clr-bg);
   height: 50vh;
+  /* border: 1px solid red; */
   /* max-height: 400px; */
 }
 
@@ -24,7 +25,7 @@
   align-items: center;
   transition: all 0.5s ease 0s;
   border: 2px solid var(--clr-primary);
-  padding: 13px;
+  padding: 15px;
 }
 .techsection > div:hover {
   background-color: var(--clr-bg);
@@ -33,6 +34,7 @@
   box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border: 1px solid var(--clr-primary);
+  cursor: pointer;
 }
 
 .techsection > div > svg {
@@ -47,14 +49,43 @@
   background-color: transparent;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .techsection {
-    height: 120vh;
+    height: 70vh;
   }
-  .techsection > div {
+  /* .techsection > div {
     width: 40%;
     margin-right: 5%;
     margin-bottom: 2%;
     height: 18vh;
+  } */
+
+
+  .techsection > div {
+    width: 15%;
+    height: 16vh;
+    max-height: 140px;
+    box-shadow: var(--shadow);
+    z-index: 1;
+    border-radius: 20px;
+    margin: 2.5%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease 0s;
+    border: 2px solid var(--clr-primary);
+    padding: 13px;
+  }
+
+  .techsection > div:hover {
+    background-color: var(--clr-bg);
+    overflow: hidden;
+    transform: scale(1.08);
+    box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border: 1px solid var(--clr-primary);
+    cursor: pointer;
   }
 }

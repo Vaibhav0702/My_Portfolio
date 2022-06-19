@@ -16,7 +16,9 @@ import {
   SiJavascript,
   SiMongodb,
   SiNodedotjs,
-  SiNetlify
+  SiNetlify,
+  SiRedux,
+  SiChakraui
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -35,6 +37,209 @@ export const Projects = () => {
       <div className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+
+
+
+
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+
+              <div className="project_videocontainer" >
+
+                <div >
+
+                  <Carousel className="project_videocontainer" autoPlay={true} infiniteLoop={true} showIndicators={false} showThumbs={false} showStatus={false} >
+
+                    <div  >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/174476469-1ee7aee8-2b0f-488a-aa96-383f94177fe9.png"
+
+                      />
+
+                    </div>
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/174476499-0f2ee89a-cb0c-40e7-9a10-f152f0bc336a.png"
+
+                      />
+
+                    </div>
+
+
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/174476515-2c9017ef-3e2a-4334-adf3-813f7823d972.png"
+
+                      />
+
+                    </div>
+
+
+
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/174476542-b0f66a08-7b39-4fad-8a31-acbc39245918.png"
+
+                      />
+
+                    </div>
+
+
+                    
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/174476562-c239ca0f-7729-484d-9211-efd3d2f68e59.png"
+
+                      />
+
+                    </div>
+
+
+                    
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/174476568-ce2f4907-0216-4ef9-8849-b0c67c383a25.png"
+
+                      />
+
+                    </div>
+
+
+
+                    
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/174476603-3d883a04-fd5c-4e65-8b8c-1b11cb5b78da.png"
+
+                      />
+
+                    </div>
+
+
+
+                    
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/174476623-b77f57e3-ddc3-4a7a-ac4a-34c433a4eecb.png"
+
+                      />
+
+                    </div>
+
+
+
+                    
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/174476633-ad53afc0-0b43-4d25-b3cb-4746fdf3a11b.png"
+
+                      />
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                  </Carousel>
+
+
+
+
+
+
+
+                </div>
+
+              </div>
+
+
+              <div className="project_information">
+                <h2>PharmEasy</h2>
+                <p>
+                  PharmEasy is one of India's leading healthcare aggregators and most trusted online medicine delivery app Like Aapki apni pharmasy 😃, I had to clone this website. This was a Indivisual project built by me in just 4 days.
+                </p>
+
+                <div className="tec" >
+                  <FaReact />
+                  <SiRedux />
+                  <SiChakraui />
+                  <SiNetlify />
+                </div>
+
+                <div>
+                  <a
+                    href="https://pharm-easy.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Vaibhav0702/pharm-easy"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
           <div className="projects_container" data-aos="fade-right">
@@ -134,6 +339,11 @@ export const Projects = () => {
           </div>
 
 
+
+
+
+
+
           <div className="projects_container" data-aos="fade-right">
             <div className="project">
 
@@ -143,44 +353,44 @@ export const Projects = () => {
 
                   <Carousel className="project_videocontainer" autoPlay={true} infiniteLoop={true} showIndicators={false} showThumbs={false} showStatus={false} >
 
-                  <div>
-                  <img
-                    src="https://miro.medium.com/max/700/1*VNb0tcgKmYTYfVrLPCQLYg.png"
-                    alt="Max Fashion"
-                  />
-                </div>
+                    <div>
+                      <img
+                        src="https://miro.medium.com/max/700/1*VNb0tcgKmYTYfVrLPCQLYg.png"
+                        alt="Max Fashion"
+                      />
+                    </div>
 
 
-                <div>
-                  <img
-                    src="https://user-images.githubusercontent.com/97450767/169753033-7cdb19dd-7764-4893-aba0-998c4fdecd06.png"
-                    alt="Max Fashion"
-                  />
-                </div>
+                    <div>
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/169753033-7cdb19dd-7764-4893-aba0-998c4fdecd06.png"
+                        alt="Max Fashion"
+                      />
+                    </div>
 
 
-                <div>
-                  <img
-                    src="https://user-images.githubusercontent.com/97450767/169752904-7f9d0f0f-2cd6-45af-9154-fb522037750c.png"
-                    alt="Max Fashion"
-                  />
-                </div>
-
-                
-                <div>
-                  <img
-                    src="https://user-images.githubusercontent.com/97450767/169753085-e07e805f-a6c2-41be-8c2b-0cf0f2fcae68.png"
-                    alt="Max Fashion"
-                  />
-                </div>
+                    <div>
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/169752904-7f9d0f0f-2cd6-45af-9154-fb522037750c.png"
+                        alt="Max Fashion"
+                      />
+                    </div>
 
 
-                <div>
-                  <img
-                    src="https://user-images.githubusercontent.com/97450767/169753159-1e7c34b8-7030-43ba-8131-5dadf05e33a3.png"
-                    alt="Max Fashion"
-                  />
-                </div>
+                    <div>
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/169753085-e07e805f-a6c2-41be-8c2b-0cf0f2fcae68.png"
+                        alt="Max Fashion"
+                      />
+                    </div>
+
+
+                    <div>
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/169753159-1e7c34b8-7030-43ba-8131-5dadf05e33a3.png"
+                        alt="Max Fashion"
+                      />
+                    </div>
 
 
 
@@ -193,7 +403,7 @@ export const Projects = () => {
 
 
 
-             
+
               <div className="project_information">
                 <h2>Max Fashion</h2>
                 <p>
@@ -244,7 +454,7 @@ export const Projects = () => {
                 <p>
                   Youtube is a video-streaming platform used by creators across the globe to publish original content. I have tried to clone this project with HTML, CSS and JS.
                 </p>
-                <div>
+                <div className="tec" >
                   <DiCss3 />
                   <SiHtml5 />
                   <IoLogoJavascript />
@@ -289,7 +499,7 @@ export const Projects = () => {
                 <p>
                   Stop Watch is use to calculate time required for specific task, I have tried to make stop watch like Google stopwatch , it will provide featchers like Stop, Pause and Reset timer.
                 </p>
-                <div>
+                <div className="tec" >
 
                   <IoLogoJavascript />
                   <FaReact />
@@ -336,7 +546,7 @@ export const Projects = () => {
                 <p>
                   Weather App is a platform used to get weather report as per users search for their respective city or they can also pick up any location from the provided google map And also see upcoming 7 days data after searching.
                 </p>
-                <div>
+                <div className="tec" >
 
                   <IoLogoJavascript />
                   <SiHtml5 />

@@ -19,6 +19,7 @@
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.36) 0px 10px 15px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    cursor: pointer;
 }
 .project_videocontainer {
   flex-basis: 65%;
@@ -43,6 +44,10 @@
 }
 .tec{
   width: 90%;
+  /* border: 1px solid red; */
+  margin: 20px;
+  align-items: center;
+ 
 }
 
 .project_information {
