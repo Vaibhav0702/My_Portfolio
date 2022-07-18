@@ -18,7 +18,8 @@ import {
   SiNodedotjs,
   SiNetlify,
   SiRedux,
-  SiChakraui
+  SiChakraui,
+  SiHeroku,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -37,6 +38,208 @@ export const Projects = () => {
       <div className="Projectsection">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
+
+
+
+
+          <div className="projects_container" data-aos="fade-right">
+            <div className="project">
+
+              <div className="project_videocontainer" >
+
+                <div >
+
+                  <Carousel className="project_videocontainer" autoPlay={true} infiniteLoop={true} showIndicators={false} showThumbs={false} showStatus={false} >
+
+                    <div  >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/179463648-fd68d26f-df92-4595-b21a-26b978df8387.png"
+
+                      />
+
+                    </div>
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/179464767-c61aa1b4-d7a2-43f5-ba3a-b1deb5fd3b55.png"
+
+                      />
+
+                    </div>
+
+
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/179464970-1f67237f-33a1-4a1a-a2b0-15dfcced40b3.png"
+
+                      />
+
+                    </div>
+
+
+
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/179465093-3f2aae06-1927-4e4a-979c-dd87038cd234.png"
+
+                      />
+
+                    </div>
+
+
+
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/179465607-ab7901de-06ae-4462-901a-21856eb1ceaa.png"
+
+                      />
+
+                    </div>
+
+
+
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/179465753-71924947-cf80-4c3a-9505-0005784307a4.png"
+
+                      />
+
+                    </div>
+
+
+
+
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/179465906-e0a9bac9-7bc1-4936-98d3-c2b68cd1f512.png"
+
+                      />
+
+                    </div>
+
+
+
+
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/179466323-5da7464c-e3fb-4919-b418-c2b8af47ffff.png"
+
+                      />
+
+                    </div>
+
+
+
+
+
+                    <div >
+
+                      <img
+                        src="https://user-images.githubusercontent.com/97450767/179466135-21fe9415-2c89-4b16-9afc-b8ffd746f724.png"
+
+                      />
+
+                    </div>
+                    
+
+
+
+                    <div>
+                      <img src="https://user-images.githubusercontent.com/97450767/179466483-da54e829-f3eb-4637-add7-4ef67103f819.png" alt="" />
+                    </div>
+
+                    
+
+                    <div>
+                      <img src="https://user-images.githubusercontent.com/97450767/179466732-56ffa218-db2a-41d8-b4be-d8421f576582.png" alt="" />
+                    </div>
+
+
+                    <div>
+                      <img src="https://user-images.githubusercontent.com/97450767/179467521-7a8535dc-180a-46e8-9281-58b8947b3f1b.png" alt="" />
+                    </div>
+                    
+
+                    <div>
+                      <img src="https://user-images.githubusercontent.com/97450767/179467616-6ce02e0d-37aa-4436-93bb-5677a7dce24c.png" alt="" />
+                    </div>
+
+
+                    <div>
+
+                      <img src="https://user-images.githubusercontent.com/97450767/179468329-aa67d9eb-871c-450a-bad5-41af62815887.png" alt="" />
+                    </div>
+
+
+                  </Carousel>
+
+
+
+
+
+
+
+                </div>
+
+              </div>
+
+
+              <div className="project_information">
+                <h2>Bewakoof</h2>
+                <p>
+                   Bewakoof is an Online Shopping site for Men and Women Clothing. Shop from a wide range of T-shirts, Mobile Covers, Accessories and more at the best prices, I had to clone this website. This was a Indivisual project build in just 2 Weeks. 
+                </p>
+
+                <div className="tec" >
+                  <FaReact />
+                  <SiRedux />
+
+                   <SiMaterialui/>
+                   
+                   <SiHeroku/>
+
+                  <SiNetlify />
+                </div>
+
+                <div>
+                  <a
+                    href="https://mybewakoof.netlify.app/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt onbt">
+                      See this Live
+                    </span>
+                  </a>
+                  <a
+                    href="https://github.com/Vaibhav0702/bewakoof"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <span type="button" className="btns onbt">
+                      View Code
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
 
 
 
@@ -93,7 +296,7 @@ export const Projects = () => {
                     </div>
 
 
-                    
+
 
                     <div >
 
@@ -105,7 +308,7 @@ export const Projects = () => {
                     </div>
 
 
-                    
+
 
                     <div >
 
@@ -118,7 +321,7 @@ export const Projects = () => {
 
 
 
-                    
+
 
                     <div >
 
@@ -131,7 +334,7 @@ export const Projects = () => {
 
 
 
-                    
+
 
                     <div >
 
@@ -144,7 +347,7 @@ export const Projects = () => {
 
 
 
-                    
+
 
                     <div >
 
@@ -186,6 +389,7 @@ export const Projects = () => {
                   <FaReact />
                   <SiRedux />
                   <SiChakraui />
+                  <SiHeroku/>
                   <SiNetlify />
                 </div>
 
@@ -212,29 +416,6 @@ export const Projects = () => {
               </div>
             </div>
           </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -452,7 +633,7 @@ export const Projects = () => {
               <div className="project_information">
                 <h2>YouTube</h2>
                 <p>
-                  Youtube is a video-streaming platform used by creators across the globe to publish original content. I have tried to clone this project with HTML, CSS and JS.
+                  Youtube is a video-streaming platform used by creators across the globe to publish original content. I Was tried to clone this project with HTML, CSS and JS.
                 </p>
                 <div className="tec" >
                   <DiCss3 />
