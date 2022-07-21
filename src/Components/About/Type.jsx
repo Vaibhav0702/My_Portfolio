@@ -10,7 +10,7 @@ export const Type = () => {
           strings: ["Full Stack Web Developer", "MERN Stack Developer", "Love To Learn New Things", "Entrepreneure"],
           autoStart: true,
           loop: true,
-          deleteSpeed: 50
+          deleteSpeed: 50,
         }}
       />
     </>
