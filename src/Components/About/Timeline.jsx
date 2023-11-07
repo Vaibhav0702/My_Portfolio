@@ -30,10 +30,61 @@ export const Timeline = () => {
         <h2 className="section__title" data-aos="fade-right">
           My <span className="different">Timeline 💫</span>
         </h2>
+
+        <h4 className="section__title" data-aos="fade-right">
+          Work <span className="different">Experience 💻</span>
+        </h4>
         <VerticalTimeline lineColor={linecolor}>
 
           <VerticalTimelineElement
-            date={"November 2021 - Present"}
+            date={"October 2022 - Present"}
+            contentStyle={{
+              boxShadow: `var(--shadow)`,
+              border: "3px solid var(--clr-primary)",
+              backgroundColor: `var(--clr-bg)`,
+              textAlign: "center",
+              color: `var(--clr-fg-alt)`,
+            }}
+            contentArrowStyle={{
+              borderRight: "16px solid  var(--clr-primary)",
+            }}
+            iconStyle={{
+              border: ` 3px solid var(--clr-primary)`,
+              backgroundColor: `var(--clr-bg)`,
+              color: `var(--clr-primary)`,
+            }}
+            icon={<WorkIcon />}
+          >
+            <h3
+              className="vertical-timeline-element-title"
+              data-aos="fade-right"
+            >
+              Junior Full Stack Developer
+            </h3>
+            <h4
+              className="vertical-timeline-element-subtitle"
+              data-aos="fade-right"
+            >
+              Cyberium Infotech Pvt Ltd
+            </h4>
+            <p data-aos="fade-right">
+              Developed and maintained dynamic user interface using React ,Angular and Js.
+              Collaborated with the design team to translate UI/UX design figma into
+              responsive web interface.
+              Worked closely with backend developers to integrate RESTful APIs, ensuring
+              seamless data flow between the front-end and backend systems.
+              Partnered with the Product team to comprehend requirements and business
+              specifications.
+            </p>
+          </VerticalTimelineElement>
+
+
+        <h4 className="section__title" data-aos="fade-right">
+          <span className="different">Education  🖥️ </span>
+        </h4>
+
+          <VerticalTimelineElement
+            date={"November 2021 - September 2022"}
             contentStyle={{
               boxShadow: `var(--shadow)`,
               border: "3px solid var(--clr-primary)",
@@ -64,7 +115,7 @@ export const Timeline = () => {
               Masai School (Remote)
             </h4>
             <p data-aos="fade-right">
-              Joined the Military coding school to learn Full Stack Web Development
+              Studied Full Stack Web Development
               and DSA. Also get to learn lot more other skills as well.
             </p>
           </VerticalTimelineElement>

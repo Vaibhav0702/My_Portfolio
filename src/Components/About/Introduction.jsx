@@ -22,19 +22,12 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone, My name is{" "}
-                <span className="different">Vaibhav Ginnalwar </span> and I am from{" "}
-                <span className="different">
-                  {" "}
-                  Pusad, Maharashtra (India)
-                </span>
-                . I have completed my graduation in Mechanical Enginnering
-                from{" "}
-                <span className="different">
-                  Sant Gadge Baba Amravati University, Amravati, Maharashtra
-                </span>
-                . Then I joined full stack web development course by{" "}
-                <span className="different">Masai School</span> a military type
-                coding school.
+                <span className="different">Vaibhav Ginnalwar </span> And I'm a 
+                <span className="different"> Mechanical Engineering</span> graduate from 
+                <span className="different"> Sant Gadge Baba Amravati University, Maharashtra, India</span>. I've also completed a 
+                <span className="different"> full stack web development</span> course at 
+                <span className="different"> Masai School</span> Masai School and have 
+                <span className="different"> 1+ year of experience</span> as a Junior Full-Stack Developer.
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
               <h4 className="different">
