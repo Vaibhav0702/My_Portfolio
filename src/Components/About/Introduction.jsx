@@ -26,7 +26,7 @@ export const Introduction = () => {
                 <span className="different"> Mechanical Engineering</span> graduate from 
                 <span className="different"> Sant Gadge Baba Amravati University, Maharashtra, India</span>. I've also completed a 
                 <span className="different"> full stack web development</span> course at 
-                <span className="different"> Masai School</span> Masai School and have 
+                <span className="different"> Masai School</span> and have 
                 <span className="different"> 1+ year of experience</span> as a Junior Full-Stack Developer.
               </h4>
               <h4>Terms That can describe me apart form Coding :</h4>
