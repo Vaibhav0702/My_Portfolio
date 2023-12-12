@@ -1,16 +1,15 @@
 .header {
-  height: 8em;
+  height: 4em;
   max-width: 1100px;
   width: 95%;
   margin: 0 auto;
   justify-content: space-between;
   font-style: italic;
-
+  /* border: 1px solid rgb(17, 202, 0); */
 }
-
 @media (max-width: 600px) {
   .header {
-    height: 6em;
+    height: 4em;
   }
 }
 

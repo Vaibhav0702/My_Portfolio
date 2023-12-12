@@ -19,7 +19,10 @@ export default function App() {
   return (
     <div id="top" className={`${themename} app`}>
       <section id="#home">
+        <div className="home">
         <Header />
+        </div>
+       
       </section>
       <main>
         <About />

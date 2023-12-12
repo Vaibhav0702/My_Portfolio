@@ -735,15 +735,15 @@ export const Projects = () => {
 
                 </div>
                 <div>
-                  {/* <a
-                    href="https://vstopwatch.netlify.app/"
+                  <a
+                    href="https://65786e7fca1cbb6ce1df7c78--shimmering-creponne-d3206c.netlify.app/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     <span type="button" className="btns onbt">
                       See this Live
                     </span>
-                  </a> */}
+                  </a>
                   <a
                     href="https://github.com/Vaibhav0702/weather_app.git"
                     target="_blank"
